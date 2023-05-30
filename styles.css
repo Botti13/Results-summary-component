@@ -1,8 +1,15 @@
-body, button {
+body {
     color: hsl(241, 100%, 89%);
     font-family: 'Hanken Grotesk', sans-serif;
-    max-width: 1440px;
     text-align: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    color: hsl(241, 100%, 89%);
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 
 h1 {
@@ -24,7 +31,6 @@ img {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     height: 450px;
     width: 45%;
-    margin: 15% auto;
 }
 
 .result {
